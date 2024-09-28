@@ -1,0 +1,18 @@
+.title{
+    text-align: center;
+}
+
+.main-title{
+    letter-spacing: 2px;
+    font-size: 3rem;
+    text-shadow: 0 0 2rem currentColor;
+    text-transform: uppercase;
+}
+
+.title_subtitle{
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-weight: 600;
+}

@@ -1,0 +1,42 @@
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    /* border: .5px solid red;  */
+    padding: 1;
+}
+.title{
+    font-weight: 600;
+    /* padding: 1rem 2rem; */
+    font-size: 2px;
+}
+
+.nav-header h2{
+    font-size: 4rem;
+}
+
+
+.navigation-list{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    padding: 1rem 0;
+
+}
+
+.bars{
+    transition: all .5s;
+    padding: 1rem;
+    align-items: center;
+
+}
+.bars:hover{
+    background-color:#F8D082;
+    
+}
+.link{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 1000;
+}
