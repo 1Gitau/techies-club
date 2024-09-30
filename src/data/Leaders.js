@@ -2,7 +2,7 @@ import leader1 from '../assets/ndia.jpg';
 import leader2 from '../assets/victory.jpg';
 import leader3 from '../assets/allan.jpg';
 import leader4 from '../assets/bridget.jpg';
-import leader5 from '../assets/Ruth.jpg';
+import leader5 from '../assets/ruth.jpg';
 import leader6 from '../assets/webster.jpg';
 import leader7 from '../assets/manase.jpg';
 import leader8 from '../assets/carolyne.jpg';
