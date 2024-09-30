@@ -8,7 +8,7 @@ import leader7 from '../assets/manase.jpg';
 import leader8 from '../assets/carolyne.jpg';
 import leader9 from '../assets/stanely.jpg';
 import leader10 from '../assets/paul.jpg';
-import leader11 from '../assets/Bridget.jpg';
+import leader11 from '../assets/bridget.jpg';
 
 
 const clubLeadership = [
