@@ -1,6 +1,6 @@
 
 import Header from './components/Header/header';
-import Footer from './components/footer/footer';
+import Footer from './components/Footer/footer';
 import HomePage from './pages/Home/HomePage';
 import EventsPage from './pages/Events/EventsPage';
 import LeadershipPage from './pages/leadershipPage/leadershipPage';
