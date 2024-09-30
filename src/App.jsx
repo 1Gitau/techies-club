@@ -1,17 +1,23 @@
 
-import Header from './components/header/header';
-import Hero from './components/Hero/Hero';
-import About from './components/About/about';
+import Header from './components/Header/header';
 import Footer from './components/footer/footer';
-import Testmonies from './components/Testmonies/Testmonies';
+import HomePage from './pages/Home/HomePage';
+import EventsPage from './pages/Events/EventsPage';
+import LeadershipPage from './pages/leadershipPage/leadershipPage';
 import './App.css'
+
+import { BrowserRouter as Router, Route, Routes, BrowserRouter } from 'react-router-dom';
 function App() {
   return (
     <>
+    <BrowserRouter> 
     <Header/>
-    <Hero />
-    <About/>
-    <Testmonies/>
+    <Routes>
+      <Route path="/" element={<HomePage/>} />
+      <Route path="/events" element={<EventsPage/>} />
+      <Route path="/leadership" element={<LeadershipPage/>}/>
+    </Routes >
+    </BrowserRouter> 
     <Footer/>
    
     </>

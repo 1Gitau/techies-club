@@ -1,3 +1,9 @@
+.testmonies-container{
+    width: 50%;
+    margin: 4rem auto;
+}
+
+
 .testmonies-card{
     /* border: 1px solid blueviolet; */
     width: 50rem;
@@ -5,17 +11,17 @@
     margin: 2rem auto;
     padding: 1rem;
 }
-.testmonies-card-alumni-details img{
+ .testmonies-card-alumni-details img{
     --size: 6rem;
-    width: var(--size);
-    height: var(--size);
-    border-radius: 50%;
-}
-.testmonies-card-alumni-details{
+    width: var(--size); 
+height: var(--size);
+ border-radius: 50%; 
+} 
+.testmonies-card-alumni-details{ 
     align-items: center;
     display: flex;
-    gap: 1rem;
-}
+gap: 1rem; 
+} 
 .testmonies-card-alumni-name{
     text-transform: capitalize;
     letter-spacing: 1.4px;
@@ -24,6 +30,8 @@
     text-transform: capitalize;
     margin: 2rem,0;
 }
+    
+
 .testmonies-text{
 font-size: 1.4rem;
 line-height: 1.5;

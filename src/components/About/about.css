@@ -86,5 +86,5 @@
     line-height: 1.5;
     letter-spacing: 1px;
     box-shadow:10px 10px 5px lightgray inset;
-    transition: .5s;
+    transition: all ease-in-out .5s;
 }

@@ -1,6 +1,7 @@
 import Title from "../Title/title";
 import './testmonies.css';
-import alumni1 from '../../assets/alumni1.jpg';
+import Carousel from 'react-elastic-carousel';
+import testimoniesData from "../../data/testimoniesData";
 
 function Testmoniescard({AlumniAvata, AlumniName, Title, Text}){
     return(
@@ -20,11 +21,18 @@ function Testmonies(){
         <section>
             <Title mainTitle="testmonies" subTitle="quotes from alumni"/>
             <div className="testmonies-container">
-                <Testmoniescard
-                AlumniAvata={alumni1}
-                AlumniName="Grace Gitau"
-                Title="cyber security analyst"
-                Text="qwertyuiopasdasdfghjkwertyucvbasdfghasdfghasdfgsdfsdfgxcvsdfg"/>
+                <Carousel enableAutoPlay={true}>
+                {testimoniesData.map((testimony, index) =>(
+                        <Testmoniescard
+                        key={index}
+                        AlumniAvata={testimony.AlumniAvata}
+                        AlumniName={testimony.AlumniName}
+                        Title={testimony.Title}
+                        Text={testimony.Text}
+                        />
+                    ))
+                }
+                </Carousel>
             </div>
 
         </section>
